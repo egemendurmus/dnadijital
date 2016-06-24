@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/lblListItem"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:textSize="17dip"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:paddingLeft="?android:attr/expandableListPreferredChildPaddingLeft"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:text="Hire dry cleaner"
+        android:id="@+id/button16"
+        android:background="@drawable/loginbutton"
+        android:textColor="@color/com_facebook_button_background_color_focused"
+        android:paddingBottom="3dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="2dp"
+
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@+id/lblListItem"
+        android:layout_toStartOf="@+id/lblListItem"
+        android:textSize="10dp" />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:text="More İnfo"
+        android:id="@+id/button17"
+        android:layout_alignBottom="@+id/button16"
+        android:layout_toRightOf="@+id/lblListItem"
+        android:background="@drawable/loginbutton"
+        android:textColor="@color/com_facebook_button_background_color_focused"
+        android:paddingBottom="3dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="2dp"
+
+        android:layout_alignParentTop="true"
+        android:textSize="10dp" />
+
+
+</RelativeLayout>

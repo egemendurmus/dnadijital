@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.egemendurmus.a1clean">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+    <uses-permission android:name="android.permission.ACCOUNT_MANAGER" />
+
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the 'MyLocation' functionality. 
+    -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name="com.facebook.FacebookActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <provider
+            android:name="com.facebook.FacebookContentProvider"
+            android:authorities="com.facebook.app.FacebookContentProvider137239440021831"
+            android:exported="true" />
+
+        <activity
+            android:name=".signup.sign_up"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".signup.alert_activity" />
+        <activity
+            android:name=".signup.sms_verification"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".customer_adress.autocomplete_place" />
+        <activity
+            android:name=".slidemenu.customer_slide"
+            android:label="@string/title_activity_customer_slide"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".customer_adress.MapsActivity"
+            android:label="@string/title_activity_maps"
+            android:windowSoftInputMode="stateHidden" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyBCiieypPXnAjq7gc5jUVPO2rPAJ0SqlD0" />
+
+        <activity android:name=".customer_adress.Main2Activity" />
+        <activity android:name=".supplier_list.suplier_list" />
+        <activity android:name=".supplier_list.expand_list" />
+        <activity android:name=".supplier_list.suplier_info" />
+        <activity
+            android:name=".supplier_list.slidemenus.Main3Activity"
+            android:label="@string/title_activity_main3"
+            android:theme="@style/AppTheme.NoActionBar" />
+    </application>
+
+</manifest>

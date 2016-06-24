@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">1Clean</string>
+    <string name="facebook_app_id">137239440021831</string>
+    <string name="title_activity_ustomer_slider">ustomer_slider</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_item_list">Items</string>
+    <string name="title_item_detail">Item Detail</string>
+    <string name="title_activity_customer_slide">1Clean</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_supplierlist">supplierlist</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="server_client_id">953282697165</string>
+
+
+    <string-array name="dizi">
+        <item>Ev</item>
+        <item>İş</item>
+
+    </string-array>
+    <string name="title_activity_xpandble_supplier">xpandble_supplier</string>
+    <string name="title_activity_suplier_info">suplier_info</string>
+    <string name="title_activity_main3">Main3Activity</string>
+
+
+
+    <array name="articles_images_thumbnail_array">
+        <item>@color/mavi</item>
+    </array>
+
+
+</resources>

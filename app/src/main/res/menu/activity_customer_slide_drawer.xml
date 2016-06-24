@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/order"
+            android:title="Order" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/currentorder"
+            android:title="Current Orders" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/orderhistory"
+            android:title="Order History" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/shops_prices"
+            android:title="Shops &amp; prices" />
+
+        <item
+            android:id="@+id/gift"
+            android:icon="@drawable/gift"
+            android:title="Buy a gift" />
+        <item
+            android:id="@+id/support"
+            android:icon="@drawable/support"
+            android:title="Support" />
+        <item
+            android:id="@+id/Help"
+            android:icon="@drawable/helps"
+            android:title="Help" />
+
+        <item
+            android:id="@+id/ayarlar"
+            android:icon="@drawable/ayarlar"
+            android:title="Ayarlar" />
+
+
+
+    </group>
+
+
+
+</menu>
